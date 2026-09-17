@@ -1,39 +1,26 @@
-<img src="assets/field-notes.svg" alt="Jiarui Hu — AI, interactive worlds, and visual explanations" width="100%" />
+<img src="assets/hello.svg" alt="icyjerry" width="100%" />
 
-<p align="center">
-  <strong>胡家瑞 / Jerry Hu</strong> · Software Engineering @ Fudan University<br>
-  我喜欢把想法做成能运行的东西，再把它解释清楚。
-</p>
+你好，我是 Jerry，复旦大学软件工程本科生。
 
-## Explore my work
+这里放一些课程项目，还有学着学着就想做出来的小东西：麻将助手、虚拟课堂，以及讲 Transformer 和傅里叶变换的网页。
 
-### 01 / 看见，然后决策
+### 最近整理的
 
-从图像与数据中提取信息，再让程序做出可检查的判断。
+- [32 词表 Transformer](https://github.com/Icyjerry/transformer-32-vocab-tutorial) — 从 token 一路跟到 logits，每一步都标出张量形状。
+- [排序实验](https://github.com/Icyjerry/cpp-sorting-experiment) — 归并排序的小数组换成插入排序，到底能快多少？代码和实测数据都在。
+- [数模 skill](https://github.com/Icyjerry/cumcm-vibecoding) — 把做数模时用到的建模、实验和核验流程整理成了一份指令。
 
-- [Mahjong Bot](https://github.com/Icyjerry/mahjong-bot) — 截图识别、牌局状态与策略引擎组成的日麻助手。
-- [CIFAR-10 CNN](https://github.com/Icyjerry/cifar10-cnn) — 从 LeNet 到更深的卷积网络，比较图像分类实验。
-- [Emotion Classification Lab](https://github.com/Icyjerry/distilbert-emotion-classification-lab) — DistilBERT 特征提取、微调与错误分析。
+### 也可以逛逛
 
-### 02 / 构建可以探索的空间
+| 项目 | 做了什么 |
+| :--- | :--- |
+| [🀄 Mahjong Bot](https://github.com/Icyjerry/mahjong-bot) | 识别屏幕上的麻将牌，跟踪牌局，再决定怎么打。 |
+| [🎮 Game Platform](https://github.com/Icyjerry/game-platform) | Java 课程里的游戏大厅：黑白棋、扫雷、国际象棋和和平棋。 |
+| [🥽 VR Classroom](https://github.com/Icyjerry/vr-classroom) | 用 Three.js / WebXR 做的虚拟课堂 demo。 |
+| [〰 Fourier Explained](https://github.com/Icyjerry/fourier-explained) | 从声音到频谱，边看边调参数。 |
 
-把交互、规则和视觉反馈放进同一个作品里。
+机器学习练习：[CIFAR-10](https://github.com/Icyjerry/cifar10-cnn) · [DistilBERT 情绪分类](https://github.com/Icyjerry/distilbert-emotion-classification-lab)
 
-- [VR Classroom](https://github.com/Icyjerry/vr-classroom) — 基于 Three.js 与 WebXR 的虚拟课堂演示。
-- [Game Platform](https://github.com/Icyjerry/game-platform) — Java 多游戏大厅，包含国际象棋、黑白棋、扫雷与和平棋。
+课程记录：[CS61A](https://github.com/Icyjerry/cs61a-projects) · [CS61B](https://github.com/Icyjerry/CS61B)
 
-### 03 / 把抽象概念画出来
-
-我也喜欢做能跟着读、跟着运行的教学材料。
-
-- [Transformer, 32 Tokens](https://github.com/Icyjerry/transformer-32-vocab-tutorial) — 用极小模型追踪 embedding、attention 和 logits 的张量形状。
-- [Fourier Explained](https://github.com/Icyjerry/fourier-explained) — 从声音到频谱的交互式傅里叶教学。
-- [C++ Sorting Experiment](https://github.com/Icyjerry/cpp-sorting-experiment) — 用可复现的计时比较插入、归并与混合排序。
-
-## Workbench
-
-`Python` · `PyTorch` · `OpenCV` · `Java` · `C++` · `JavaScript` · `Three.js` · `WebXR`
-
-课程练习在 [CS61A Projects](https://github.com/Icyjerry/cs61a-projects) 和 [CS61B](https://github.com/Icyjerry/CS61B)；数模工作流程整理在 [CUMCM VibeCoding](https://github.com/Icyjerry/cumcm-vibecoding)。
-
-<p align="center"><sub>Build → inspect → explain → build again.</sub></p>
+<sub>平时用 Python、Java、C++ 和 JavaScript。欢迎在项目里提 issue，一起交流。</sub>
