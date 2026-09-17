@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="298" viewBox="0 0 960 298" role="img" aria-labelledby="title">
+<title id="title">Jerry Hu / Icyjerry — Fudan Software Engineering. Learning how models work, and what runs underneath.</title>
+<style>
+text {font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#24292f}
+.small {font-size:13px;fill:#59636e} .label {font-size:15px} .accent {fill:#966017}
+.flow {stroke-dasharray:3 13;animation:flow 5s linear infinite}
+.cursor {animation:blink 1.4s steps(2,end) infinite}
+@keyframes flow {to {stroke-dashoffset:-64}}
+@keyframes blink {50% {opacity:0}}
+@media (prefers-reduced-motion:reduce) {.flow,.cursor {animation:none}}
+</style>
+<rect x=".5" y=".5" width="959" height="297" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<path d="M1 42H959" stroke="#d0d7de"/>
+<circle cx="24" cy="22" r="4" fill="#966017"/><text x="39" y="27" class="small">icyjerry / ~/learning</text>
+<text x="928" y="27" text-anchor="end" class="small">models &amp; systems</text>
+<text x="32" y="109" font-size="52" font-weight="700" letter-spacing="-3">Jerry Hu<tspan class="accent">_</tspan></text>
+<text x="34" y="142" class="label" fill="#59636e">Software Engineering · Fudan University</text>
+<text x="34" y="203" class="label"><tspan class="accent">$</tspan> follow the tensor</text>
+<text x="34" y="230" class="small">from the model to the machine.</text>
+<text x="34" y="267" class="small">learning / building / taking things apart</text>
+<rect x="410" y="255" width="8" height="15" fill="#966017" class="cursor"/>
+<path d="M563 72V265" stroke="#d0d7de"/>
+<path d="M603 94V130" stroke="#d0d7de" stroke-width="2"/><path class="flow" d="M603 94V130" stroke="#966017" stroke-width="2"/><circle cx="603" cy="85" r="4" fill="#966017" stroke="#966017"/><text x="624" y="90" font-size="18">tokens</text><text x="914" y="90" class="small" text-anchor="end">language</text><path d="M603 147V183" stroke="#d0d7de" stroke-width="2"/><path class="flow" d="M603 147V183" stroke="#966017" stroke-width="2"/><circle cx="603" cy="138" r="4" fill="#966017" stroke="#966017"/><text x="624" y="143" font-size="18">tensors</text><text x="914" y="143" class="small" text-anchor="end">computation</text><path d="M603 200V236" stroke="#d0d7de" stroke-width="2"/><path class="flow" d="M603 200V236" stroke="#966017" stroke-width="2"/><circle cx="603" cy="191" r="4" fill="#ffffff" stroke="#59636e"/><text x="624" y="196" font-size="18">memory</text><text x="914" y="196" class="small" text-anchor="end">execution</text><circle cx="603" cy="244" r="4" fill="#ffffff" stroke="#59636e"/><text x="624" y="249" font-size="18">hardware</text><text x="914" y="249" class="small" text-anchor="end">the next question</text></svg>
