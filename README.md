@@ -3,7 +3,7 @@
   <img src="assets/header-light.svg" width="100%" alt="Jerry Hu / Icyjerry — Software Engineering at Fudan. From the model to the machine.">
 </picture>
 
-<img align="right" src="assets/jerry.png" width="180" alt="Jerry inspecting a computer cable">
+<img align="right" src="assets/jerry.png" width="260" alt="Jerry inspecting a computer cable">
 
 我是 Jerry，复旦大学软件工程本科生。
 
