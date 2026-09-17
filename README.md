@@ -89,32 +89,29 @@
 
 ## Tools I reach for
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<strong>Languages</strong><br><br>
-<img src="assets/icons/Python-Dark.svg" width="36" alt="Python"> <img src="assets/icons/C.svg" width="36" alt="C"> <img src="assets/icons/CPP.svg" width="36" alt="C++"> <img src="assets/icons/Java-Dark.svg" width="36" alt="Java"> <img src="assets/icons/Bash-Dark.svg" width="36" alt="Shell"><br>
-<sub>Python · C / C++ · Java · Shell</sub>
-</td>
-<td width="50%" valign="top">
-<strong>Models &amp; experiments</strong><br><br>
-<img src="assets/icons/PyTorch-Dark.svg" width="36" alt="PyTorch"> <img src="assets/icons/Anaconda-Dark.svg" width="36" alt="Conda"><br>
-<sub>PyTorch · Hugging Face · Jupyter · Conda / uv</sub>
-</td>
-</tr>
-<tr>
-<td valign="top">
-<strong>Systems workbench</strong><br><br>
-<img src="assets/icons/Linux-Dark.svg" width="36" alt="Linux"> <img src="assets/icons/Bash-Dark.svg" width="36" alt="Bash"><br>
-<sub>Linux · shell · computer systems coursework</sub>
-</td>
-<td valign="top">
-<strong>Everyday tools</strong><br><br>
-<img src="assets/icons/Git.svg" width="36" alt="Git"> <img src="assets/icons/VSCode-Dark.svg" width="36" alt="VS Code"> <img src="assets/icons/Idea-Dark.svg" width="36" alt="JetBrains IDEA"><br>
-<sub>Git · VS Code · JetBrains</sub>
-</td>
-</tr>
-</table>
+**Languages**
+
+<img src="assets/icons/Python-Dark.svg" width="44" alt="Python"> <img src="assets/icons/C.svg" width="44" alt="C"> <img src="assets/icons/CPP.svg" width="44" alt="C++"> <img src="assets/icons/Java-Dark.svg" width="44" alt="Java"> <img src="assets/icons/Bash-Dark.svg" width="44" alt="Shell">
+
+Python · C / C++ · Java · Shell
+
+**Models &amp; experiments**
+
+<img src="assets/icons/PyTorch-Dark.svg" width="44" alt="PyTorch"> <img src="assets/icons/Anaconda-Dark.svg" width="44" alt="Conda">
+
+PyTorch · Hugging Face · Jupyter · Conda / uv
+
+**Systems workbench**
+
+<img src="assets/icons/Linux-Dark.svg" width="44" alt="Linux"> <img src="assets/icons/Bash-Dark.svg" width="44" alt="Bash">
+
+Linux · shell · computer systems coursework
+
+**Everyday tools**
+
+<img src="assets/icons/Git.svg" width="44" alt="Git"> <img src="assets/icons/VSCode-Dark.svg" width="44" alt="VS Code"> <img src="assets/icons/Idea-Dark.svg" width="44" alt="JetBrains IDEA">
+
+Git · VS Code · JetBrains
 
 ## From GitHub
 
