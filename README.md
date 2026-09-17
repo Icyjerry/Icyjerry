@@ -1,45 +1,39 @@
-### Hi there 👋 I'm Jerry Hu / 胡家瑞
+<img src="assets/field-notes.svg" alt="Jiarui Hu — AI, interactive worlds, and visual explanations" width="100%" />
 
-🎓 Software Engineering @ Fudan University (2025–)  
-💻 Building with Python · Java · C · JavaScript  
-🤖 Interested in AI, Computer Vision, and Interactive Web  
+<p align="center">
+  <strong>胡家瑞 / Jerry Hu</strong> · Software Engineering @ Fudan University<br>
+  我喜欢把想法做成能运行的东西，再把它解释清楚。
+</p>
 
----
+## Explore my work
 
-### 🛠️ Tech Stack
+### 01 / 看见，然后决策
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=threedotjs&logoColor=white)
-![A-Frame](https://img.shields.io/badge/A--Frame-EF2D5E?style=flat&logo=aframe&logoColor=white)
+从图像与数据中提取信息，再让程序做出可检查的判断。
 
----
+- [Mahjong Bot](https://github.com/Icyjerry/mahjong-bot) — 截图识别、牌局状态与策略引擎组成的日麻助手。
+- [CIFAR-10 CNN](https://github.com/Icyjerry/cifar10-cnn) — 从 LeNet 到更深的卷积网络，比较图像分类实验。
+- [Emotion Classification Lab](https://github.com/Icyjerry/distilbert-emotion-classification-lab) — DistilBERT 特征提取、微调与错误分析。
 
-### 📌 Featured Projects
+### 02 / 构建可以探索的空间
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [mahjong-bot](https://github.com/Icyjerry/mahjong-bot) | 麻将 AI 机器人 — screen recognition + strategy engine | Python, OpenCV |
-| [cifar10-cnn](https://github.com/Icyjerry/cifar10-cnn) | CIFAR-10 图像分类 — LeNet → DeepConvNet (85.89%) | Python, PyTorch |
-| [vr-classroom](https://github.com/Icyjerry/vr-classroom) | AI + VR 虚拟课堂 — immersive 3D classroom | JS, WebXR, A-Frame |
-| [cs61a-projects](https://github.com/Icyjerry/cs61a-projects) | UC Berkeley CS61A — 5 course projects | Python, Scheme |
-| [CS61B](https://github.com/Icyjerry/CS61B) | UC Berkeley CS61B — data structures + labs | Java |
-| [game-platform](https://github.com/Icyjerry/game-platform) | Gaming platform web app | HTML/JS |
+把交互、规则和视觉反馈放进同一个作品里。
 
----
+- [VR Classroom](https://github.com/Icyjerry/vr-classroom) — 基于 Three.js 与 WebXR 的虚拟课堂演示。
+- [Game Platform](https://github.com/Icyjerry/game-platform) — Java 多游戏大厅，包含国际象棋、黑白棋、扫雷与和平棋。
 
-### 📚 Coursework
+### 03 / 把抽象概念画出来
 
-- **CS61A** (UC Berkeley) — Scheme Interpreter, Ants, Hog, Cats, Degrees
-- **CS61B** (UC Berkeley) — Deque, GuitarHero, Ngordnet, BYOW
+我也喜欢做能跟着读、跟着运行的教学材料。
 
----
+- [Transformer, 32 Tokens](https://github.com/Icyjerry/transformer-32-vocab-tutorial) — 用极小模型追踪 embedding、attention 和 logits 的张量形状。
+- [Fourier Explained](https://github.com/Icyjerry/fourier-explained) — 从声音到频谱的交互式傅里叶教学。
+- [C++ Sorting Experiment](https://github.com/Icyjerry/cpp-sorting-experiment) — 用可复现的计时比较插入、归并与混合排序。
 
-### 📫 Contact
+## Workbench
 
-- Email: `25300270086@m.fudan.edu.cn`
-- GitHub: [@Icyjerry](https://github.com/Icyjerry)
+`Python` · `PyTorch` · `OpenCV` · `Java` · `C++` · `JavaScript` · `Three.js` · `WebXR`
+
+课程练习在 [CS61A Projects](https://github.com/Icyjerry/cs61a-projects) 和 [CS61B](https://github.com/Icyjerry/CS61B)；数模工作流程整理在 [CUMCM VibeCoding](https://github.com/Icyjerry/cumcm-vibecoding)。
+
+<p align="center"><sub>Build → inspect → explain → build again.</sub></p>
