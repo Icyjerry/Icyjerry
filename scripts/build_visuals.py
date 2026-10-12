@@ -23,22 +23,20 @@ text {{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fi
 </style>
 <rect x=".5" y=".5" width="959" height="{height-1}" rx="10" fill="{bg}" stroke="{border}"/>
 '''
-    header = start(298, 'Jerry Hu / Icyjerry — Fudan Software Engineering. Learning how models work, and what runs underneath.')
+    header = start(218, 'Jerry Hu / Icyjerry — Fudan Software Engineering. Learning how models work, and what runs underneath.')
     header += f'''<path d="M1 42H959" stroke="{border}"/>
 <circle cx="24" cy="22" r="4" fill="{accent}"/><text x="39" y="27" class="small">icyjerry / ~/learning</text>
 <text x="928" y="27" text-anchor="end" class="small">models &amp; systems</text>
 <text x="32" y="109" font-size="52" font-weight="700" letter-spacing="-3">Jerry Hu<tspan class="accent">_</tspan></text>
 <text x="34" y="142" class="label" fill="{muted}">Software Engineering · Fudan University</text>
-<text x="34" y="203" class="label"><tspan class="accent">$</tspan> follow the tensor</text>
-<text x="34" y="230" class="small">from the model to the machine.</text>
-<text x="34" y="267" class="small">learning / building / taking things apart</text>
-<rect x="410" y="255" width="8" height="15" fill="{accent}" class="cursor"/>
-<path d="M563 72V265" stroke="{border}"/>
+<text x="34" y="186" class="label"><tspan class="accent">$</tspan> follow the tensor</text>
+<rect x="221" y="173" width="8" height="15" fill="{accent}" class="cursor"/>
+<path d="M563 65V196" stroke="{border}"/>
 '''
     for i,(name,detail) in enumerate([('tokens','language'),('tensors','computation'),('memory','execution'),('hardware','the next question')]):
-        y=85+i*53
+        y=73+i*38
         if i<3:
-            header+=f'<path d="M603 {y+9}V{y+45}" stroke="{border}" stroke-width="2"/><path class="flow" d="M603 {y+9}V{y+45}" stroke="{accent}" stroke-width="2"/>'
+            header+=f'<path d="M603 {y+9}V{y+30}" stroke="{border}" stroke-width="2"/><path class="flow" d="M603 {y+9}V{y+30}" stroke="{accent}" stroke-width="2"/>'
         header+=f'<circle cx="603" cy="{y}" r="4" fill="{accent if i<2 else bg}" stroke="{accent if i<2 else muted}"/><text x="624" y="{y+5}" font-size="18">{name}</text><text x="914" y="{y+5}" class="small" text-anchor="end">{detail}</text>'
     (ASSETS/f'header-{theme}.svg').write_text(header+'</svg>\n')
     roadmap=start(420,'Learning map: systems foundations → neural networks → Transformers → training → post-training → AI systems. A direction of study, not a completion chart.')
