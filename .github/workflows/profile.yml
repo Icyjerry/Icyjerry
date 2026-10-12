@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Generate cards
         env:
           GH_TOKEN: ${{ github.token }}
@@ -28,5 +30,12 @@ jobs:
           git add assets/github
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh GitHub profile cards'
-            git push
+            for profile_attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+            done
+            echo '::error::Could not publish profile cards after three attempts.'
+            exit 1
           fi
