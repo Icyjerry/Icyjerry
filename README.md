@@ -7,9 +7,14 @@
 
 I'm Jerry, a Software Engineering undergraduate at Fudan University.
 
-I'm learning my way down the **LLM → Systems** stack: how tokens become logits, and how computation, memory, and hardware shape training and inference.
+From tokens to tensors,<br>
+from models to machines—<br>
+I follow the computation,<br>
+one layer deeper.
 
-I learn by breaking things down, implementing them, and turning them into runnable experiments or clear tutorials.
+I take things apart.<br>
+I write them back in code.<br>
+I share what starts to make sense.
 
 [Projects](#on-the-workbench) · [Tools](#tools-i-reach-for) · [Activity](#from-github)
 
