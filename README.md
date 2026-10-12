@@ -7,14 +7,10 @@
 
 I'm Jerry, a Software Engineering undergraduate at Fudan University.
 
-From tokens to tensors,<br>
-from models to machines—<br>
-I follow the computation,<br>
-one layer deeper.
-
-I take things apart.<br>
-I write them back in code.<br>
-I share what starts to make sense.
+From words to weights, from code to core,<br>
+I trace each layer, then one more.<br>
+I take apart and build anew,<br>
+And share the things I've learned to do.
 
 [Projects](#on-the-workbench) · [Tools](#tools-i-reach-for) · [Activity](#from-github)
 
