@@ -59,10 +59,10 @@ This map covers ongoing study and future plans.
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub>01 / OPEN THE MODEL</sub>
-<h3><a href="https://github.com/Icyjerry/transformer-32-vocab-tutorial">Tiny Transformer</a></h3>
-<p>A 32-token vocabulary, one forward pass, every tensor shape. Includes a runnable PyTorch example.</p>
-<code>PyTorch</code> <code>shapes &amp; attention</code>
+<sub>01 / TRAIN THE MODEL</sub>
+<h3><a href="https://github.com/Icyjerry/cifar10-cnn">CIFAR-10 CNN</a></h3>
+<p>From LeNet to DeepConvNet: image classification, regularization, and hyperparameter experiments.</p>
+<code>PyTorch</code> <code>image classification</code>
 </td>
 <td width="50%" valign="top">
 <sub>02 / RUN THE EXPERIMENT</sub>
@@ -73,10 +73,10 @@ This map covers ongoing study and future plans.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub>03 / MEASURE THE CODE</sub>
-<h3><a href="https://github.com/Icyjerry/cpp-sorting-experiment">Sorting Experiment</a></h3>
-<p>Merge sort meets insertion sort. Implementations, benchmarks, and the cost of small subarrays.</p>
-<code>C++</code> <code>algorithms &amp; benchmarks</code>
+<sub>03 / BUILD THE INTERFACE</sub>
+<h3><a href="https://github.com/Icyjerry/game-platform">Game Platform</a></h3>
+<p>Four games in one Java platform, with a JavaFX GUI and a Lanterna terminal interface.</p>
+<code>Java</code> <code>JavaFX &amp; Lanterna</code>
 </td>
 <td width="50%" valign="top">
 <sub>04 / MAKE IT DO SOMETHING</sub>
@@ -92,10 +92,10 @@ This map covers ongoing study and future plans.
 
 | Repository | What I built |
 | :--- | :--- |
-| [CIFAR-10 CNN](https://github.com/Icyjerry/cifar10-cnn) | Image classification experiments, from LeNet to deeper convolutional networks. |
+| [Tiny Transformer](https://github.com/Icyjerry/transformer-32-vocab-tutorial) | A Transformer forward pass with a 32-token vocabulary and explicit tensor shapes. |
 | [Fourier Explained](https://github.com/Icyjerry/fourier-explained) | An interactive Fourier transform explainer with adjustable parameters. |
 | [VR Classroom](https://github.com/Icyjerry/vr-classroom) | A virtual classroom demo built with Three.js / WebXR. |
-| [Game Platform](https://github.com/Icyjerry/game-platform) | A multi-game platform from my Java coursework. |
+| [Sorting Experiment](https://github.com/Icyjerry/cpp-sorting-experiment) | Merge sort, insertion sort, and benchmarks for small subarrays. |
 | [Mathematical Modeling Skill](https://github.com/Icyjerry/cumcm-vibecoding) | A reusable workflow for mathematical modeling, experiments, and result verification. |
 
 </details>
