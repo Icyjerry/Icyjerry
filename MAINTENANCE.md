@@ -4,6 +4,7 @@
 
 - `README.md`: introduction, current focus, projects and tool groups. Keep learning plans distinct from completed work. Replace a project by changing its link, explanation and short tags together.
 - `scripts/build_visuals.py`: original header and learning-map labels, layout, colors and CSS animation. Run `python3 scripts/build_visuals.py` after edits. Both light and dark variants are generated together.
+- `scripts/build_tools.py`: tool group labels, icon lists, and descriptions. Run `python3 scripts/build_tools.py` after edits; it generates desktop and mobile cards for both themes. Icons are embedded locally, with unique SVG IDs.
 - `assets/jerry.png`: centered 260 px mascot illustration. It is separate from the technical SVGs, so it can be replaced without editing them.
 
 The learning map expresses a direction of study, not course completion or skill percentages. CUDA and distributed systems are not listed as established skills.

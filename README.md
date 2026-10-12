@@ -102,29 +102,12 @@ This map covers ongoing study and future plans.
 
 ## Tools I reach for
 
-<p>
-  <strong>Languages</strong><br>
-  <img src="assets/icons/Python-Dark.svg" width="44" alt="Python"> <img src="assets/icons/C.svg" width="44" alt="C"> <img src="assets/icons/CPP.svg" width="44" alt="C++"> <img src="assets/icons/Java-Dark.svg" width="44" alt="Java"> <img src="assets/icons/Bash-Dark.svg" width="44" alt="Shell">
-  <br><sub>Python · C / C++ · Java · Shell</sub>
-</p>
-
-<p>
-  <strong>Models &amp; experiments</strong><br>
-  <img src="assets/icons/PyTorch-Dark.svg" width="44" alt="PyTorch"> <img src="assets/icons/Anaconda-Dark.svg" width="44" alt="Conda">
-  <br><sub>PyTorch · Hugging Face · Jupyter · Conda / uv</sub>
-</p>
-
-<p>
-  <strong>Systems workbench</strong><br>
-  <img src="assets/icons/Linux-Dark.svg" width="44" alt="Linux"> <img src="assets/icons/Bash-Dark.svg" width="44" alt="Bash">
-  <br><sub>Linux · shell · computer systems coursework</sub>
-</p>
-
-<p>
-  <strong>Everyday tools</strong><br>
-  <img src="assets/icons/Git.svg" width="44" alt="Git"> <img src="assets/icons/VSCode-Dark.svg" width="44" alt="VS Code"> <img src="assets/icons/Idea-Dark.svg" width="44" alt="JetBrains IDEA">
-  <br><sub>Git · VS Code · JetBrains</sub>
-</p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/tools-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/tools-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tools-desktop-dark.svg">
+  <img src="assets/tools-desktop-light.svg" width="100%" alt="Languages: Python, C, C++, Java, Shell. Models and experiments: PyTorch, Hugging Face, Jupyter, Conda, uv. Systems: Linux and Shell. Everyday tools: Git, VS Code, JetBrains.">
+</picture>
 
 ## From GitHub
 
