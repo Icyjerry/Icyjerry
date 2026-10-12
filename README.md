@@ -5,39 +5,39 @@
 
 <img align="right" src="assets/jerry.png" width="260" alt="Jerry inspecting a computer cable">
 
-我是 Jerry，复旦大学软件工程本科生。
+I'm Jerry, a Software Engineering undergraduate at Fudan University.
 
-最近在沿着 **LLM → Systems** 这条线往下学：从一个 token 怎么变成 logits，到训练和推理时，计算、内存和硬件分别在做什么。
+I'm learning my way down the **LLM → Systems** stack: how tokens become logits, and how computation, memory, and hardware shape training and inference.
 
-我喜欢把不太懂的东西拆小，写一遍，再做成能跑的实验或能看懂的教程。
+I learn by breaking things down, implementing them, and turning them into runnable experiments or clear tutorials.
 
-[项目 / Projects](#on-the-workbench) · [工具 / Tools](#tools-i-reach-for) · [动态 / Activity](#from-github)
+[Projects](#on-the-workbench) · [Tools](#tools-i-reach-for) · [Activity](#from-github)
 
 ## Going down the stack
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/learning-path-dark.svg">
-  <img src="assets/learning-path-light.svg" width="100%" alt="学习路线：CS61 系列、CS170 与 CSAPP 基础 → micrograd / makemore → GPT 与 BPE → LLM 训练 → 后训练 → CS336、推理与 AI Infra。这是学习方向，不代表课程已全部完成。">
+  <img src="assets/learning-path-light.svg" width="100%" alt="Learning map: CS61, CS170 and CSAPP foundations → micrograd / makemore → GPT and BPE → LLM training → post-training → CS336, inference and AI infrastructure. Includes ongoing study and future plans.">
 </picture>
 
 ### Current focus
 
-| 状态 | 最近关心的问题 | 线索 |
+| Focus | Questions I'm working through | Resources |
 | :--- | :--- | :--- |
-| `learning` | 一个 Transformer 的前向传播，每一步到底算了什么？ | Karpathy 系列 · GPT / nanoGPT · BPE |
-| `practicing` | 微调改变了什么，模型又会在哪些样本上出错？ | PyTorch · Hugging Face · 分类实验 |
-| `foundations` | 从程序到机器，数据怎么表示、移动和计算？ | CS61 系列 · CS170 · CSAPP |
-| `next` | 训练和推理的开销在哪里，怎么测、怎么优化？ | CS336 · LLM systems · AI infra |
+| `learning` | What happens at each step of a Transformer forward pass? | Karpathy's series · GPT / nanoGPT · BPE |
+| `practicing` | What does fine-tuning change, and where does the model fail? | PyTorch · Hugging Face · classification experiments |
+| `foundations` | How does a machine represent, move, and compute with data? | CS61 series · CS170 · CSAPP |
+| `next` | Where do training and inference costs come from, and how can I measure and reduce them? | CS336 · LLM systems · AI infra |
 
 <details>
-<summary>展开学习路线 / reading &amp; building notes</summary>
+<summary>Reading &amp; building notes</summary>
 
-- **程序与系统基础**：CS61A / CS61B / CS61C、CS170、CSAPP；公开记录见 [CS61A](https://github.com/Icyjerry/cs61a-projects) 和 [CS61B](https://github.com/Icyjerry/CS61B)。
-- **从零理解模型**：沿 Karpathy 的 micrograd、makemore、GPT / nanoGPT、tokenizer / BPE、GPT-2 reproduction 路线学习。
-- **训练与后训练**：用 PyTorch、Hugging Face 做实验，继续了解 LLM fine-tuning / post-training。
-- **往下探索**：为 CS336 补基础，逐步学习推理、内存、runtime 和分布式训练。
+- **Programming and systems foundations**: CS61A / CS61B / CS61C, CS170, and CSAPP. Public coursework: [CS61A](https://github.com/Icyjerry/cs61a-projects) and [CS61B](https://github.com/Icyjerry/CS61B).
+- **Models from scratch**: learning through Karpathy's micrograd, makemore, GPT / nanoGPT, tokenizer / BPE, and GPT-2 reproduction series.
+- **Training and post-training**: experimenting with PyTorch and Hugging Face while learning more about LLM fine-tuning and post-training.
+- **Further down the stack**: building foundations for CS336 and gradually exploring inference, memory, runtimes, and distributed training.
 
-这里记录学习方向；没有把课程、教程或计划写成已完成的成果。
+This map covers ongoing study and future plans.
 
 </details>
 
@@ -47,43 +47,43 @@
 <tr>
 <td width="50%" valign="top">
 <sub>01 / OPEN THE MODEL</sub>
-<h3><a href="https://github.com/Icyjerry/transformer-32-vocab-tutorial">32 词表 Transformer</a></h3>
-<p>把一次前向传播拆到张量形状：embedding、attention、MLP，再到 logits。附可运行的 PyTorch 示例。</p>
+<h3><a href="https://github.com/Icyjerry/transformer-32-vocab-tutorial">32-Token Transformer Tutorial</a></h3>
+<p>Trace a forward pass through a model with a 32-token vocabulary: embeddings, attention, MLP, and logits, with tensor shapes and a runnable PyTorch example.</p>
 <code>PyTorch</code> <code>shapes &amp; attention</code>
 </td>
 <td width="50%" valign="top">
 <sub>02 / RUN THE EXPERIMENT</sub>
-<h3><a href="https://github.com/Icyjerry/distilbert-emotion-classification-lab">DistilBERT 情绪分类</a></h3>
-<p>从特征提取到微调，再回头看错误样本。记录模型怎么用，以及实验结果怎么读。</p>
+<h3><a href="https://github.com/Icyjerry/distilbert-emotion-classification-lab">DistilBERT Emotion Classification</a></h3>
+<p>Compare feature extraction and fine-tuning, then inspect misclassified samples. A record of the experiments and how to interpret their results.</p>
 <code>Hugging Face</code> <code>fine-tuning</code>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub>03 / MEASURE THE CODE</sub>
-<h3><a href="https://github.com/Icyjerry/cpp-sorting-experiment">C++ 排序实验</a></h3>
-<p>归并排序的小数组换成插入排序，什么时候更快？保留实现、基准数据和分析。</p>
+<h3><a href="https://github.com/Icyjerry/cpp-sorting-experiment">C++ Sorting Experiment</a></h3>
+<p>When does switching to insertion sort for small subarrays speed up merge sort? Includes implementations, benchmark data, and analysis.</p>
 <code>C++</code> <code>algorithms &amp; benchmarks</code>
 </td>
 <td width="50%" valign="top">
 <sub>04 / MAKE IT DO SOMETHING</sub>
 <h3><a href="https://github.com/Icyjerry/mahjong-bot">Mahjong Bot</a></h3>
-<p>从屏幕识别麻将牌，跟踪牌局，再连接策略。把识别、状态和决策放到一起。</p>
+<p>Recognize mahjong tiles on screen, track the game state, and connect it to a strategy engine. Bringing perception, state, and decisions together.</p>
 <code>Python</code> <code>OpenCV</code>
 </td>
 </tr>
 </table>
 
 <details>
-<summary>其他实验、小工具和课程项目</summary>
+<summary>More experiments, tools, and coursework</summary>
 
-| 仓库 | 做了什么 |
+| Repository | What I built |
 | :--- | :--- |
-| [CIFAR-10 CNN](https://github.com/Icyjerry/cifar10-cnn) | 从 LeNet 到更深的卷积网络，做图像分类练习。 |
-| [Fourier Explained](https://github.com/Icyjerry/fourier-explained) | 可以调参数的傅里叶变换讲解网页。 |
-| [VR Classroom](https://github.com/Icyjerry/vr-classroom) | Three.js / WebXR 虚拟课堂 demo。 |
-| [Game Platform](https://github.com/Icyjerry/game-platform) | Java 课程里的游戏大厅。 |
-| [数模 skill](https://github.com/Icyjerry/cumcm-vibecoding) | 整理建模、实验和结果核验流程。 |
+| [CIFAR-10 CNN](https://github.com/Icyjerry/cifar10-cnn) | Image classification experiments, from LeNet to deeper convolutional networks. |
+| [Fourier Explained](https://github.com/Icyjerry/fourier-explained) | An interactive Fourier transform explainer with adjustable parameters. |
+| [VR Classroom](https://github.com/Icyjerry/vr-classroom) | A virtual classroom demo built with Three.js / WebXR. |
+| [Game Platform](https://github.com/Icyjerry/game-platform) | A multi-game platform from my Java coursework. |
+| [Mathematical Modeling Skill](https://github.com/Icyjerry/cumcm-vibecoding) | A reusable workflow for mathematical modeling, experiments, and result verification. |
 
 </details>
 
@@ -134,10 +134,10 @@ Git · VS Code · JetBrains
   <img src="assets/github/activity-light.svg" width="100%" alt="GitHub contribution activity for the last 31 days">
 </picture>
 
-<sub>每日更新。语言占比来自公开仓库代码量（不含本主页），不代表熟练度。连续贡献统计范围为近一年；今天尚无贡献时，连续天数可延续到昨天。</sub>
+<sub>Updated daily. Language shares reflect code volume in public repositories, excluding this profile; they do not measure proficiency. Streaks use the past-year calendar, and the current streak may end yesterday while today is still empty.</sub>
 
 ---
 
-欢迎在具体项目里提 issue，讨论实现、实验结果，或者哪里还没讲清楚。
+Feel free to open an issue in a project to discuss the implementation, experiment results, or anything that could use a clearer explanation.
 
 <sub><a href="MAINTENANCE.md">About this README / assets &amp; data sources</a></sub>
