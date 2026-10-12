@@ -3,9 +3,7 @@
   <img src="assets/header-light.svg" width="100%" alt="Jerry Hu / Icyjerry — Software Engineering at Fudan. From the model to the machine.">
 </picture>
 
-<p align="center">
-  <img src="assets/jerry.png" width="260" alt="Jerry inspecting a computer cable">
-</p>
+<img align="left" src="assets/jerry.png" width="260" alt="Jerry inspecting a computer cable">
 
 <p align="center">
   <sub>Software Engineering undergraduate · Fudan University</sub>
@@ -25,6 +23,8 @@
   <a href="#tools-i-reach-for">Tools</a> &nbsp; / &nbsp;
   <a href="#from-github">Activity</a>
 </p>
+
+<br clear="all">
 
 ## Going down the stack
 
